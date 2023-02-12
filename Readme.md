@@ -32,9 +32,7 @@ This way, a Huffman tree for a particular text file can be created.
 8.  Finally, the tree’s left and right edges are numbered 0 and 1, respectively. For each leaf node, the entire tree is traversed, and the corresponding 1 and 0 are appended to their code until a leaf node is encountered.
 9.  Once we have the unique codes for each unique character in the text, we can replace the text characters with their codes. These codes will be stored in bit-by-bit form, which will take up less space than text.
 
-The above pictorial representation clearly demonstrates the complete Huffman coding algorithm for the text = “Stressed-desserts”.  
-Size of a file with this text = 17*1 = **17 bytes**  
-Size of an encoded file = 1*S + 1*- + 2*d + 4*e + 2*r + 5*s + 2*t = 1*4 + 1*4 + 2*3 + 4*2 + 2*3 + 5*2 + 2*3 = 44 bits = 44/8 bytes = **5.5 bytes** 
+Go to this [**link**](https://drive.google.com/file/d/1Fu_RqpvQ8nLx2GainudzZBlUTVNlxtLP/view?usp=sharing) to visualize the algorithm with an example:
 
 |**The structure of a compressed file –**| 
 |:--------------:|
