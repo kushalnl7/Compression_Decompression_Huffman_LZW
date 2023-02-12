@@ -1,5 +1,0 @@
-// FOR HUFFMAN PROGRAM //
-	gcc Huffman.c -Wall -lm		     // FOR COMPILATION
-	./a.out c <Input File> <Output File> // FOR COMPRESSION
-	./a.out d <Input File> <Output File> // FOR DECOMPRESSION
-	
